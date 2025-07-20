@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Leny Sweet and Delicacies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      background: #1e1e1e;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .content {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4dd0e1;
+      color: #121212;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    a.button:hover {
+      background-color: #00acc1;
+    }
+
+    footer {
+      background: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Leny Sweet and Delicacies</h1>
+  </header>
+
+  <div class="content">
+    <p>Leny Sweet and Delicacies is a proudly local business offering traditional Filipino treats with love and care. We preserve culinary heritage through every bite of our kakanin and handmade sweets.</p>
+    <p>Our mission is to bring joy, tradition, and flavor to your table.</p>
+    <a href="website.html" class="button">Go Back Home</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Leny Sweet and Delicacies</p>
+  </footer>
+</body>
+</html>

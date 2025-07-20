@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order | Leny Sweet and Delicacies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #e91e63;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    form button {
+      background: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    form button:hover {
+      background: #c2185b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leny Sweet and Delicacies - Order Now</h1>
+  </header>
+
+  <div class="container">
+    <h2>Place Your Order</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select Product</option>
+        <option>Kakanin</option>
+        <option>Leche Flan</option>
+        <option>Ube Halaya</option>
+      </select>
+      <input type="number" placeholder="Quantity" min="1" required />
+      <textarea placeholder="Delivery Address" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+</body>
+</html>
